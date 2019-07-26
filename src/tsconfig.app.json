@@ -5,7 +5,9 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "typeorm": ["../node_modules/typeorm/typeorm-model-shim.js"]
+      "typeorm": ["../node_modules/typeorm/typeorm-model-shim.js"],
+      "@app/*": ["src/app/*"],
+      "@data/*": ["src/app/data-access/*"]
     }
   },
   "exclude": [
