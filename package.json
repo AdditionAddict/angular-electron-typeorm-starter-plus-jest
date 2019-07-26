@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^8.0.2",
+    "@angular-builders/jest": "^8.0.4",
     "@angular-devkit/architect": "^0.800.3",
     "@angular-devkit/build-angular": "^0.800.3",
     "@angular-devkit/core": "^8.0.3",
@@ -58,6 +59,7 @@
     "@angular/platform-browser": "^8.0.1",
     "@angular/platform-browser-dynamic": "^8.0.1",
     "@angular/router": "^8.0.1",
+    "@types/jest": "^24.0.15",
     "@types/node": "~12.0.8",
     "angular-cli-builders": "^2.1.2",
     "codelyzer": "~5.1.0",
@@ -69,6 +71,7 @@
     "electron-reload": "^1.4.0",
     "fs": "0.0.1-security",
     "hammerjs": "^2.0.8",
+    "jest": "^24.8.0",
     "npm-run-all": "4.1.5",
     "npx": "^10.2.0",
     "rxjs": "^6.5.2",
