@@ -14,7 +14,8 @@
     "lib": ["es2017", "dom"],
     "types": ["jest"],
     "paths": {
-      "@app/*": ["src/app/*"]
+      "@app/*": ["src/app/*"],
+      "@data/*": ["src/app/data-access/*"]
     }
   }
 }
